@@ -1,13 +1,13 @@
 import java.io.*;
 import java.util.*;
 
-public class b10866_µ¦ {
+public class b10866_ë± {
 	public static void main(String args[]) throws IOException {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int f = 10000, b = 10001;  //¸Ç ¾Õ ¼öÀÇ À§Ä¡ f¿Í ¸Ç µÚÀÇ ¼öÀÇ À§Ä¡ b. 10000°ú 10001·Î Àâ´Â´Ù.
-		int d[] = new int[20001];  //¸Ç ¾Õ¿¡ ÀÓÀÇ·Î Ãß°¡ÇÑ 0¹øÂ° ¹è¿­°ú push_front ¸¸¹øÀÌ³ª push_back ¸¸¹øÀÌ ¹è¿­À» ÃÖ´ë·Î ¾µ °æ¿ìÀÌ¹Ç·Î 10000+10000+1 = 20001 Å©±âÀÇ ¹è¿­ »ý¼º.
+		int f = 10000, b = 10001;  //ë§¨ ì•ž ìˆ˜ì˜ ìœ„ì¹˜ fì™€ ë§¨ ë’¤ì˜ ìˆ˜ì˜ ìœ„ì¹˜ b. 10000ê³¼ 10001ë¡œ ìž¡ëŠ”ë‹¤.
+		int d[] = new int[20001];  //ë§¨ ì•žì— ìž„ì˜ë¡œ ì¶”ê°€í•œ 0ë²ˆì§¸ ë°°ì—´ê³¼ push_front ë§Œë²ˆì´ë‚˜ push_back ë§Œë²ˆì´ ë°°ì—´ì„ ìµœëŒ€ë¡œ ì“¸ ê²½ìš°ì´ë¯€ë¡œ 10000+10000+1 = 20001 í¬ê¸°ì˜ ë°°ì—´ ìƒì„±.
 		sc.nextLine();
 		while (n-- > 0) {
 			String s = sc.next();
