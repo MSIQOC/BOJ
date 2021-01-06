@@ -6,8 +6,8 @@ public class b10866_덱 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int f = 10000, b = 10001;  //맨 앞 수의 위치 f와 맨 뒤의 수의 위치 b. 10000과 10001로 잡는다.
-		int d[] = new int[20001];  //맨 앞에 임의로 추가한 0번째 배열과 push_front 만번이나 push_back 만번이 배열을 최대로 쓸 경우이므로 10000+10000+1 = 20001 크기의 배열 생성.
+		int f = 9999, b = 10000;  //맨 앞 수의 위치 f와 맨 뒤의 수의 위치 b. 10000과 10001로 잡는다.
+		int d[] = new int[20000];  //맨 앞에 임의로 추가한 0번째 배열과 push_front 만번이나 push_back 만번이 배열을 최대로 쓸 경우이므로 10000+10000+1 = 20001 크기의 배열 생성.
 		sc.nextLine();
 		while (n-- > 0) {
 			String s = sc.next();
