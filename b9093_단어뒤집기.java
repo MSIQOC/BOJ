@@ -1,7 +1,7 @@
 //5:45
 import java.util.*;
 import java.io.*;
-public class b9093_´Ü¾îµÚÁı±â {
+public class b9093_Â´ÃœÂ¾Ã®ÂµÃšÃÃ½Â±Ã¢ {
 	public static void main(String args[]) throws IOException {
 		Scanner sc = new Scanner(System.in);
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

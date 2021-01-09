@@ -1,18 +1,19 @@
+  
 import java.io.*;
 import java.util.Scanner;
 import java.util.StringTokenizer;
-public class b10828_½ºÅÃ {
+public class b10828_ìŠ¤íƒ {
 	static int size=0;
 	static int stack[] = new int[10000];
 	public static void main(String args[]) throws IOException {
 		Scanner sc = new Scanner(System.in);
 		int n;
-		n = sc.nextInt();  //n¿¡ ÀÔ·Â¹Ş±â
-		//sc.nextLine();  //scÀÇ ¹öÆÛ¸¦ Å¬¸®¾îÇØÁÖ±â À§ÇØ¼­
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));  //°ªÀĞ±â
+		n = sc.nextInt();  //nì— ì…ë ¥ë°›ê¸°
+		//sc.nextLine();  //scì˜ ë²„í¼ë¥¼ í´ë¦¬ì–´í•´ì£¼ê¸° ìœ„í•´ì„œ
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));  //ê°’ì½ê¸°
 		for (int i=0; i<n; ++i) {
 			String a = sc.next();
-			if(a.equals("push")) {  //ÀÚ¹Ù¿¡¼­ ½ºÆ®¸µÀ» ºñ±³ÇÒ ¶© ÁÖ¼Ò°ª º¯°æÀÇ ¹®Á¦ ¶§¹®¿¡ == ´ë½Å¿¡ equals ¸Ş¼Òµå¸¦ »ç¿ëÇÑ´Ù.
+			if(a.equals("push")) {  //ìë°”ì—ì„œ ìŠ¤íŠ¸ë§ì„ ë¹„êµí•  ë• ì£¼ì†Œê°’ ë³€ê²½ì˜ ë¬¸ì œ ë•Œë¬¸ì— == ëŒ€ì‹ ì— equals ë©”ì†Œë“œë¥¼ ì‚¬ìš©í•œë‹¤.
 				int m = Integer.parseInt(sc.next());
 				//System.out.println("m:" + m);
 				stack[size] = m;
