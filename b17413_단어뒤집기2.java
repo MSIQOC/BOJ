@@ -11,17 +11,6 @@ public class b17413_단어뒤집기2 {
 		String s = sc.nextLine();
 		int flip = 0;
 		for (int j = 0; j < s.length(); ++j) {
-			/*
-			if(s.charAt(j)=='<')
-				flip = 0;
-			if(flip==0) {
-				bw.write(s.charAt(j));
-				if(s.charAt(j) == '>') flip = 1;
-			}
-			else {
-				
-			}
-			*/
 			if (stack.empty() && s.charAt(j) == '<') {
 				int k = j;
 				while (s.charAt(k) != '>') {
@@ -30,7 +19,6 @@ public class b17413_단어뒤집기2 {
 				}
 				bw.write('>');
 				j = k;
-				//System.out.println("hi: "+s.charAt(j));
 			} 
 			else if (s.charAt(j) == ' ') {
 				while (!stack.empty())
