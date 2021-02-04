@@ -1,7 +1,7 @@
 import java.io.*;
-public class b9095_123´õÇÏ±â {
+public class b9095_123ë”í•˜ê¸° {
 	public static void main(String []args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  //°ªÀĞ±â
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  //Â°ÂªÃ€ÃÂ±Ã¢
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));  
 		int n = Integer.parseInt(br.readLine());
 		int D[] = new int[12];
