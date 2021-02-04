@@ -1,8 +1,8 @@
 import java.io.*;
 import java.util.StringTokenizer;
-public class b11042_Ä«µå±¸¸ÅÇÏ±â {
+public class b11042_ì¹´ë“œêµ¬ë§¤í•˜ê¸° {
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  //°ªÀĞ±â
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  //Â°ÂªÃ€ÃÂ±Ã¢
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));  
 		int n = Integer.parseInt(br.readLine());
 		int P[] = new int[n+1];
