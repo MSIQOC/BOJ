@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class b15990_123´õÇÏ±â5 {
+public class b15990_123ë”í•˜ê¸°5 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
