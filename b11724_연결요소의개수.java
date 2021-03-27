@@ -1,10 +1,10 @@
 //
 //  Created by MinSeo on 2021/03/03.
-//  Copyright ¨Ï 2021 MinSeo Shin. All rights reserved.
+//  Copyright â“’ 2021 MinSeo Shin. All rights reserved.
 //
 import java.io.*;
 import java.util.*;
-public class b11724_¿¬°á¿ä¼ÒÀÇ°³¼ö {
+public class b11724_Â¿Â¬Â°Ã¡Â¿Ã¤Â¼Ã’Ã€Ã‡Â°Â³Â¼Ã¶ {
 	static boolean visit[];
 	static int graph[][];
 	static int count = 0;
