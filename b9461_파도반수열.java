@@ -1,10 +1,10 @@
 //
 //  Created by MinSeo on 2021/03/27.
-//  Copyright ¨Ï 2021 MinSeo Shin. All rights reserved.
+//  Copyright â“’ 2021 MinSeo Shin. All rights reserved.
 //
 import java.io.*;
 import java.util.*;
-public class b9461_ÆÄµµ¹İ¼ö¿­ {
+public class b9461_Ã†Ã„ÂµÂµÂ¹ÃÂ¼Ã¶Â¿Â­ {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -19,7 +19,7 @@ public class b9461_ÆÄµµ¹İ¼ö¿­ {
 		p[7] = 4;
 		p[8] = 5;
 		p[9] = 7;
-		p[10] = 9; //ÃÊ±âÈ­
+		p[10] = 9; //ÃƒÃŠÂ±Ã¢ÃˆÂ­
 		for(int i=11; i<=100; ++i) {
 			p[i] = p[i-1] + p[i-5];
 		}
