@@ -1,10 +1,10 @@
 //
 //  Created by MinSeo on 2021/03/27.
-//  Copyright ¨Ï 2021 MinSeo Shin. All rights reserved.
+//  Copyright â“’ 2021 MinSeo Shin. All rights reserved.
 //
 import java.io.*;
 import java.util.*;
-public class b1932_Á¤¼ö»ï°¢Çü {
+public class b1932_ÃÂ¤Â¼Ã¶Â»Ã¯Â°Â¢Ã‡Ã¼ {
 	public static void main(String [] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
