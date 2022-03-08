@@ -19,6 +19,3 @@ for t in range(tt):
         print('YES')
     else:
         print('NO')
-
-
-
