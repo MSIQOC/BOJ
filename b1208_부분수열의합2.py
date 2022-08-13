@@ -24,6 +24,7 @@ getSumOfArrayCombination(right, rightSum)
 
 answer = 0
 rightSum.sort()
+print(rightSum)
 
 for l in leftSum:
     r = s - l
